@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-image: url(\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\");\n  height: 600px;\n  width: 1000px;\n  margin-right: 25px;\n}\n\n\n.text-font {\n  font-family: Avenir;\n}\n\n"
+module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-image: url(\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\");\n  height: 600px;\n  width: 1000px;\n  margin-right: 25px;\n  background-repeat: no-repeat;\n}\n\n\n.text-font {\n  font-family: Helvetica ;\n}\n\n"
 
 /***/ }),
 
@@ -87,7 +87,7 @@ var AboutMeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*.header-background {*/\n  /*background-color: azure;*/\n  /*height: fit-content;*/\n  /*width: 250px;*/\n  /*border-radius: 50px;*/\n  /*cursor: pointer;*/\n  /*}*/\n  .grid-list {\n  width:100%;\n  display: flex;\n  /*flex: 2;*/\n}\n  .text-style {\n  font-family: \"Arial Rounded MT Bold\";\n  font-size: xx-large;\n\n}\n  .container {\n  position: relative;\n}\n  .container-outer {\n  height:600px;\n  overflow-y: scroll;\n  display: flex;\n  flex-wrap: wrap;\n  flex: 3;\n}\n  .center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-family: Avenir;\n}\n  .sidebar {\n  width: 100%;\n  font-family: Avenir;\n  font-size: 25px;\n  /*padding-left: 25px;*/\n  padding-top: 15%;\n  flex: 1;\n}\n  img {\n  /*display: block;*/\n  height: 450px;\n  width: 500px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  opacity: 0.5;\n\n}\n  img:hover {\n  cursor: pointer;\n  opacity: 0.1;\n}\n  a {\n  margin-right: 1px;\n  padding-right: 1px;\n}\n\n"
+module.exports = "html, body {\n  margin: 0;\n  padding: 0;\n}\n\n.grid-list {\n  width:100%;\n  display: flex;\n}\n\n.text-style {\n  font-family: Helvetica;\n  font-size: xx-large;\n}\n\n.container {\n  position: relative;\n}\n\n.container-outer {\n  /*height:600px;*/\n  /*overflow-y: scroll;*/\n  display: flex;\n  flex-direction: column;\n  flex: 4;\n  width: 100%;\n}\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-family: Helvetica;\n}\n\n.sidebar {\n  font-family: Helvetica;\n  font-size: 25px;\n  padding-left: 25px;\n  padding-top: 15%;\n  flex: 1;\n}\n\nimg{\n  /*display: block;*/\n  height:150px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  opacity: 0.5;\n}\n\nimg:hover {\n  cursor: pointer;\n  opacity: 0.1;\n}\n\na {\n  margin-right: 1px;\n  padding-right: 1px;\n}\n\n\n"
 
 /***/ }),
 
@@ -98,7 +98,7 @@ module.exports = "\n/*.header-background {*/\n  /*background-color: azure;*/\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"grid-list\">\n  <div class=\"container-outer\">\n\n    <div class=\"container\" (mouseover)=\"sidebarText= 'Click to see what books I\\'ve most recently read, as well as my thoughts on them (LINK DOES NOT WORK YET)'\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a>\n        <img src=\"https://d1nz104zbf64va.cloudfront.net/dt/a/o/top-7-books-that-changed-the-world.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Books\n      </div>\n    </div>\n\n    <div class=\"container\" (mouseover)=\"sidebarText = 'Click to see a portfolio of some of my baked goods. Breads, Cakes, Pies, and more!'\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/144020287@N04/albums/72157699613888571\">\n        <img src=\"https://farm2.staticflickr.com/1870/43698575865_ee77d20e11_z.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Baking\n      </div>\n    </div>\n\n    <div class=\"container\" (mouseover)=\"sidebarText = 'See some things that I\\'ve cooked. Foods include homemade pastas and more! '\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/144020287@N04/albums/72157695365806880\">\n        <img src=\"https://farm2.staticflickr.com/1861/44558749232_079301684a_z.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Cooking\n      </div>\n    </div>\n\n    <div class=\"container\" (mouseover)=\"sidebarText = 'Click to see some of my favorite activites (LINK DOES NOT WORK YET)'\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a>\n        <img src=\"https://farm2.staticflickr.com/1893/43889643364_db0fc952c0_z.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Activities\n      </div>\n    </div>\n\n\n  </div>\n  <div class=\"sidebar\">\n    {{sidebarText}}\n  </div>\n</div>\n\n\n\n\n"
+module.exports = "<div class=\"grid-list\">\n\n  <div class=\"container-outer\">\n\n    <div class=\"container\" (mouseover)=\"sidebarText= 'Click to see what books I\\'ve most recently read, as well as my thoughts on them (LINK DOES NOT WORK YET)'\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a>\n        <img src=\"https://d1nz104zbf64va.cloudfront.net/dt/a/o/top-7-books-that-changed-the-world.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Books\n      </div>\n    </div>\n\n    <div class=\"container\" (mouseover)=\"sidebarText = 'Click to see a portfolio of some of my baked goods. Breads, Cakes, Pies, and more!'\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/144020287@N04/albums/72157699613888571\">\n        <img src=\"https://farm2.staticflickr.com/1870/43698575865_ee77d20e11_z.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Baking\n      </div>\n    </div>\n\n    <div class=\"container\" (mouseover)=\"sidebarText = 'See some things that I\\'ve cooked. Foods include homemade pastas and more! '\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/144020287@N04/albums/72157695365806880\">\n        <img src=\"https://farm2.staticflickr.com/1861/44558749232_079301684a_z.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Cooking\n      </div>\n    </div>\n\n    <div class=\"container\" (mouseover)=\"sidebarText = 'Click to see some of my favorite activites (LINK DOES NOT WORK YET)'\"\n    (mouseleave)=\"sidebarText = ''\">\n      <a>\n        <img src=\"https://farm2.staticflickr.com/1893/43889643364_db0fc952c0_z.jpg\">\n      </a>\n      <div class=\"center-text\">\n        Activities\n      </div>\n    </div>\n\n\n  </div>\n  <div class=\"sidebar\">\n    {{sidebarText}}\n  </div>\n</div>\n\n\n\n\n"
 
 /***/ }),
 
@@ -145,7 +145,7 @@ var HobbiesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".frame-format {\n  height:1000px;\n  width: 1000px;\n  border:none;\n  overflow-y: scroll;\n}\n"
+module.exports = "\n\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 30%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 15px;\n  font-family: Helvetica;\n}\n\n.body-class{\n  display: block;\n  width: 45%;\n  height: 50%;\n  padding: 45px 0;\n  border-radius: 5px;\n  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n.body-class:hover {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n\n.container {\n  position: relative;\n}\n\nmat-card {\n  width: 40%;\n  height: 100%;\n\n}\n\nmat-card:hover {\n  cursor: pointer;\n\n}\n\nimg {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n\n}\n"
 
 /***/ }),
 
@@ -156,7 +156,7 @@ module.exports = ".frame-format {\n  height:1000px;\n  width: 1000px;\n  border:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n  <div>\n    <a href=\"https://github.com/gigi1107\">\n      Github\n    </a>\n    <br>\n    <br>\n    <br>\n\n    <a href= \"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n      Resume\n    </a>\n\n  </div>\n"
+module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n\n      Link to my Github\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n  <a href=\"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n    <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n  </a>\n      Link to Resume\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var SafePipe = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:300px;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Avenir;\n  font-size: large;\n  padding: 20px;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  /*margin-top: 0px !important;*/\n}\n"
+module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:300px;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: large;\n  padding: 20px;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  /*margin-top: 0px !important;*/\n}\n"
 
 /***/ }),
 
@@ -331,7 +331,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  font-family: \"Hiragino Kaku Gothic Std\";\n  font-size: xx-large;\n  padding-left: 30%;\n}\n\n.button-font {\n  font-family: Avenir;\n  font-size: medium;\n  background-color: rgba(255,255,255,0.1);\n}\n\n.button-margin {\n  padding-left: 30%;\n}\n\n.background-image {\n  data-flickr-embed:\"true\";\n  background-color: aliceblue;\n  width:100% ;\n  height:100%;\n\n\n}\n\n\n"
+module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  font-family: Helvetica;\n  font-size: xx-large;\n  padding-left: 30%;\n}\n\n.button-font {\n  font-family: Helvetica;\n  font-size: medium;\n  background-color: rgba(255,255,255,0.1);\n}\n\n.button-margin {\n  padding-left: 29%;\n}\n\n.background-image {\n  data-flickr-embed:\"true\";\n  background-color: aliceblue;\n  width:100% ;\n  height:100%;\n\n\n}\n\n\n"
 
 /***/ }),
 
