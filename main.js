@@ -87,7 +87,7 @@ var AboutMeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "html, body {\n  margin: 0;\n  padding: 0;\n}\n\n.grid-list {\n  width:100%;\n  display: flex;\n}\n\n.text-style {\n  font-family: Helvetica;\n  font-size: large;\n}\n\n.container {\n  position: relative;\n}\n\n.container-outer {\n  /*height:600px;*/\n  /*overflow-y: scroll;*/\n  display: flex;\n  flex-direction: column;\n  flex: 4;\n  width: 100%;\n}\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-family: Helvetica;\n}\n\n.sidebar {\n  font-family: Helvetica;\n  font-size: large;\n  padding-left: 5%;\n  padding-top: 15%;\n  flex: 1;\n  line-height: 2;\n}\n\nimg{\n  /*display: block;*/\n  height:150px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  opacity: 0.5;\n}\n\nimg:hover {\n  cursor: pointer;\n  opacity: 0.1;\n}\n\na {\n  margin-right: 1px;\n  padding-right: 1px;\n}\n\n\n"
+module.exports = "html, body {\n  margin: 0;\n  padding: 0;\n}\n\n.grid-list {\n  width:100%;\n  display: flex;\n}\n\n.text-style {\n  font-family: Helvetica;\n  font-size: large;\n}\n\n.container {\n  position: relative;\n}\n\n.container-outer {\n  /*height:600px;*/\n  /*overflow-y: scroll;*/\n  display: flex;\n  flex-direction: column;\n  flex: 4;\n  width: 100%;\n  /*background-color: aliceblue;*/\n\n}\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-family: 'Permanent Marker', cursive;\n}\n\n.sidebar {\n  font-family: 'Poiret One';\n  font-size: large;\n  padding-left: 5%;\n  padding-top: 15%;\n  flex: 1;\n  line-height: 2;\n}\n\nimg{\n  /*display: block;*/\n  height:150px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  opacity: 0.5;\n}\n\nimg:hover {\n  cursor: pointer;\n  opacity: 0.1;\n}\n\na {\n  margin-right: 1px;\n  padding-right: 1px;\n}\n\n\n"
 
 /***/ }),
 
@@ -145,7 +145,7 @@ var HobbiesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: x-large;\n  color: mediumblue;\n  font-family: Helvetica;\n\n}\n\n.body-class{\n  display: block;\n  /*width: fit-content;*/\n  /*height: fit-content;*/\n  /*padding: 45px 0;*/\n  border-radius: 5px;\n  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  position: relative;\n  margin-top: 2%;\n  height: 50%;\n}\n\n.body-class:hover {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n\n.container {\n  position: relative;\n\n}\n\nimg {\n  height: 100%;\n  width: 100%;\n\n}\n"
+module.exports = ".center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: x-large;\n  color: mediumblue;\n  font-family: 'Permanent Marker';\n\n}\n\n.body-class{\n  display: block;\n  /*width: fit-content;*/\n  /*height: fit-content;*/\n  /*padding: 45px 0;*/\n  border-radius: 5px;\n  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  position: relative;\n  margin-top: 2%;\n  height: 50%;\n  background-color: white;\n}\n\n.body-class:hover {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n\n.container {\n  position: relative;\n\n}\n\nimg {\n  height: 100%;\n  width: 100%;\n\n}\n"
 
 /***/ }),
 
@@ -156,7 +156,7 @@ module.exports = ".center-text {\n  position: absolute;\n  top: 50%;\n  left: 50
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n      <div class=\"center-text\">\n\n        Link to my Github\n      </div>\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n    <a href=\"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n      <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n\n      <div class=\"center-text\">\n        Link to Resume\n      </div>\n    </a>\n\n  </div>\n\n</div>\n"
+module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex; background-color: aliceblue\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n      <div class=\"center-text\">\n\n        Link to my Github\n      </div>\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n    <a href=\"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n      <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n\n      <div class=\"center-text\">\n        Link to Resume\n      </div>\n    </a>\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var SafePipe = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:25%;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: 100%;\n  padding: 5%;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  -o-object-fit: cover;\n     object-fit: cover;\n  /*margin-top: 0px !important;*/\n}\n"
+module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:100%;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 2%;\n  margin-right: 2%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: 100%;\n  padding: 5%;\n  opacity: 1;\n\n}\n\n.image {\n  /*overflow:hidden;*/\n  background-color: aliceblue;\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: relative;\n  /*margin-top: 0px !important;*/\n}\n\nimg {\n  position: absolute;\n  width: 50%;\n  /*height: 50%;*/\n  margin-top: 5%;\n  margin-left: 20%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  background-color: aliceblue;\n  border-radius: 50%;\n\n\n  /*margin-left: 50%;*/\n\n}\n"
 
 /***/ }),
 
@@ -234,7 +234,7 @@ module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opa
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"image\">\n\n  <div class=\"textbox\">\n    <div class=\"text\">\n      I made this website to practice my Angular skills and to display my work-- both academic and not!\n      Use the above tabs for easy navigation.\n    </div>\n  </div>\n</div>\n"
+module.exports = "\n<div class=\"image\">\n  <img src=\"https://images.all-free-download.com/images/graphiclarge/white_rose_monochrome_516089.jpg\">\n</div>\n"
 
 /***/ }),
 
@@ -331,7 +331,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  font-family: Helvetica;\n  font-size: xx-large;\n  padding-left: 30%;\n}\n\n.button-font {\n  font-family: Helvetica;\n  font-size: medium;\n  background-color: rgba(255,255,255,0.1);\n}\n\n.button-margin {\n  padding-left: 29%;\n}\n\n.background-image {\n  data-flickr-embed:\"true\";\n  background-color: aliceblue;\n  width:100% ;\n  height:100%;\n\n\n}\n\n\n"
+module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  font-family: 'Poiret One', cursive;\n\n  font-size: xx-large;\n  /*padding-left: 30%;*/\n}\n\n.button-font {\n font-family: 'Poiret One', cursive;\n  font-size: medium;\n  background-color: rgba(255,255,255,0.1);\n}\n\n.button-margin {\n  padding-left: 45%;\n}\n\n.background-image {\n  background-color: aliceblue;\n  width:100% ;\n  height:100%;\n\n\n}\n\n\n"
 
 /***/ }),
 
@@ -342,7 +342,7 @@ module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card>\n  <mat-card class=\"background-image\">\n      <div class=\"title-font\">\n        Geneva Rose Davidson\n      </div>\n\n\n    <div class=\"button-margin\">\n      <button mat-button class=\"button-font\" routerLink=\"/home\">Home</button>\n      <button mat-button class=\"button-font\" routerLink=\"/about-me\">About Me</button>\n      <button mat-button class=\"button-font\" routerLink=\"/hobbies\">Hobbies</button>\n      <button mat-button class=\"button-font\" routerLink=\"/portfolio\">Portfolio</button>\n    </div>\n  </mat-card>\n  <div class=\"spacer\"></div>\n  <router-outlet></router-outlet>\n</mat-card>\n"
+module.exports = "<mat-card>\n  <div class=\"background-image\">\n    <div style=\"padding: 2%; display: flex\">\n      <div class=\"title-font\">\n        <link href=\"https://fonts.googleapis.com/css?family=Permanent+Marker|Poiret+One\" rel=\"stylesheet\">\n        Geneva Rose Davidson\n      </div>\n\n\n      <div class=\"button-margin\">\n        <button mat-button class=\"button-font\" routerLink=\"/home\">Home</button>\n        <button mat-button class=\"button-font\" routerLink=\"/about-me\">About Me</button>\n        <button mat-button class=\"button-font\" routerLink=\"/hobbies\">Hobbies</button>\n        <button mat-button class=\"button-font\" routerLink=\"/portfolio\">Portfolio</button>\n      </div>\n    </div>\n  </div>\n  <div class=\"spacer\"></div>\n  <router-outlet></router-outlet>\n</mat-card>\n"
 
 /***/ }),
 
