@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-image: url(\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\");\n  margin-right: 5%;\n  background-repeat: no-repeat;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n\n  /*height: 100%;*/\n}\n\n\n.text-font {\n  font-family: Helvetica;\n  opacity: 0.7;\n\n}\n\n"
+module.exports = ".portrait {\n  margin-right: 5%;\n  background-repeat: no-repeat;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n\n  /*height: 100%;*/\n}\n\n\n.text-font {\n  font-family: Helvetica;\n  opacity: 0.7;\n  padding-left: 5%;\n\n}\n\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-imag
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"display: flex; align-items: stretch\">\n  <div class=\"portrait\">\n  </div>\n  <div class=\"text-font\">\n    <p>\n      Hi, I'm Gigi. I live in Seattle, WA, and am currently pursuing a degree in Computer Science at Seattle\n      University (anticipated graduation December 2019). I obtained my first degree in Psychology from UCLA in 2015. When\n      I decided to move to Seattle immediately after graduating, I became interested in studying Computer Science.\n    </p>\n    <br>\n    <p>\n      I enjoy learning about the mind, especially exploring questions of consciousness, intelligence,\n      and learning. I would like to incorporate my studies in Psychology with my studies in Computer Science, so\n      I am therefore interested in Artificial Intelligence. However, I am not limiting myself to this, as I also\n      recently\n      became\n      interested in front- end web development.\n    </p>\n    <br>\n    <p>\n      As you will see as you explore this site, I also have a wide variety of hobbies, not all of which are expressed\n      here!\n      In addition to the things you see on my \"hobbies\" page, I enjoy playing Breath of the Wild on my new Nintendo\n      Switch and playing D&D and board games.\n\n    </p>\n    <br>\n    <p>\n      NOTE: This site is a work in progress, and not in its final form. Stay tuned.\n    </p>\n\n  </div>\n\n</div>\n\n"
+module.exports = "<div style=\"display: flex; align-items: stretch\">\n  <div>\n    <div class=\"portrait\">\n    <img src=\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\">\n    </div>\n  </div>\n  <div class=\"text-font\">\n    <p>\n      Hi, I'm Gigi. I live in Seattle, WA, and am currently pursuing a degree in Computer Science at Seattle\n      University (anticipated graduation December 2019). I obtained my first degree in Psychology from UCLA in 2015. When\n      I decided to move to Seattle immediately after graduating, I became interested in studying Computer Science.\n    </p>\n    <br>\n    <p>\n      I enjoy learning about the mind, especially exploring questions of consciousness, intelligence,\n      and learning. I would like to incorporate my studies in Psychology with my studies in Computer Science, so\n      I am therefore interested in Artificial Intelligence. However, I am not limiting myself to this, as I also\n      recently\n      became\n      interested in front- end web development.\n    </p>\n    <br>\n    <p>\n      As you will see as you explore this site, I also have a wide variety of hobbies, not all of which are expressed\n      here!\n      In addition to the things you see on my \"hobbies\" page, I enjoy playing Breath of the Wild on my new Nintendo\n      Switch and playing D&D and board games.\n\n    </p>\n    <br>\n    <p>\n      NOTE: This site is a work in progress, and not in its final form. Stay tuned.\n    </p>\n\n  </div>\n\n</div>\n\n"
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var SafePipe = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:25%;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: large;\n  padding: 20px;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  -o-object-fit: cover;\n     object-fit: cover;\n  /*margin-top: 0px !important;*/\n}\n"
+module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:25%;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: 100%;\n  padding: 5%;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  -o-object-fit: cover;\n     object-fit: cover;\n  /*margin-top: 0px !important;*/\n}\n"
 
 /***/ }),
 
