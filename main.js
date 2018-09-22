@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-image: url(\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\");\n  height: 600px;\n  width: 1000px;\n  margin-right: 25px;\n  background-repeat: no-repeat;\n}\n\n\n.text-font {\n  font-family: Helvetica ;\n}\n\n"
+module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-image: url(\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\");\n  margin-right: 5%;\n  background-repeat: no-repeat;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n\n  /*height: 100%;*/\n}\n\n\n.text-font {\n  font-family: Helvetica;\n  opacity: 0.7;\n\n}\n\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = ".portrait {\n  data-flickr-embed: \"true\";\n  background-imag
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"display: flex; align-items: stretch\">\n  <div class=\"portrait\">\n  </div>\n  <div class=\"text-font\">\n    <p>\n      Hi, I'm Gigi. I live in Seattle, WA, and am currently pursuing my second degree in Computer Science at Seattle\n      University (anticipated graduation December 2019). I obtained my first degree in Psychology from UCLA in 2015. When\n      I decided to move to Seattle immediately after graduating, I became interested in studying Computer Science.\n    </p>\n    <br>\n    <p>\n      My interests vary. I enjoy learning about the mind, especially exploring questions of consciousness, intelligence,\n      and learning. I would like to incorporate my studies in Psychology with my studies in Computer Science, so\n      I am therefore interested in Artificial Intelligence. However, I am not limiting myself to this, as I also\n      recently\n      became\n      interested in front- end web development.\n    </p>\n    <br>\n    <p>\n      As you will see as you explore this site, I also have a wide variety of hobbies, not all of which are expressed\n      here!\n      In addition to the things you see on my \"hobbies\" page, I enjoy playing Breath of the Wild on my new Nintendo\n      Switch and playing D&D and board games.\n\n    </p>\n    <br>\n    <p>\n      NOTE: This site is a work in progress, and not in its final form. Stay tuned.\n    </p>\n\n  </div>\n\n</div>\n\n"
+module.exports = "<div style=\"display: flex; align-items: stretch\">\n  <div class=\"portrait\">\n  </div>\n  <div class=\"text-font\">\n    <p>\n      Hi, I'm Gigi. I live in Seattle, WA, and am currently pursuing a degree in Computer Science at Seattle\n      University (anticipated graduation December 2019). I obtained my first degree in Psychology from UCLA in 2015. When\n      I decided to move to Seattle immediately after graduating, I became interested in studying Computer Science.\n    </p>\n    <br>\n    <p>\n      I enjoy learning about the mind, especially exploring questions of consciousness, intelligence,\n      and learning. I would like to incorporate my studies in Psychology with my studies in Computer Science, so\n      I am therefore interested in Artificial Intelligence. However, I am not limiting myself to this, as I also\n      recently\n      became\n      interested in front- end web development.\n    </p>\n    <br>\n    <p>\n      As you will see as you explore this site, I also have a wide variety of hobbies, not all of which are expressed\n      here!\n      In addition to the things you see on my \"hobbies\" page, I enjoy playing Breath of the Wild on my new Nintendo\n      Switch and playing D&D and board games.\n\n    </p>\n    <br>\n    <p>\n      NOTE: This site is a work in progress, and not in its final form. Stay tuned.\n    </p>\n\n  </div>\n\n</div>\n\n"
 
 /***/ }),
 
@@ -87,7 +87,7 @@ var AboutMeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "html, body {\n  margin: 0;\n  padding: 0;\n}\n\n.grid-list {\n  width:100%;\n  display: flex;\n}\n\n.text-style {\n  font-family: Helvetica;\n  font-size: xx-large;\n}\n\n.container {\n  position: relative;\n}\n\n.container-outer {\n  /*height:600px;*/\n  /*overflow-y: scroll;*/\n  display: flex;\n  flex-direction: column;\n  flex: 4;\n  width: 100%;\n}\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-family: Helvetica;\n}\n\n.sidebar {\n  font-family: Helvetica;\n  font-size: 25px;\n  padding-left: 25px;\n  padding-top: 15%;\n  flex: 1;\n}\n\nimg{\n  /*display: block;*/\n  height:150px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  opacity: 0.5;\n}\n\nimg:hover {\n  cursor: pointer;\n  opacity: 0.1;\n}\n\na {\n  margin-right: 1px;\n  padding-right: 1px;\n}\n\n\n"
+module.exports = "html, body {\n  margin: 0;\n  padding: 0;\n}\n\n.grid-list {\n  width:100%;\n  display: flex;\n}\n\n.text-style {\n  font-family: Helvetica;\n  font-size: large;\n}\n\n.container {\n  position: relative;\n}\n\n.container-outer {\n  /*height:600px;*/\n  /*overflow-y: scroll;*/\n  display: flex;\n  flex-direction: column;\n  flex: 4;\n  width: 100%;\n}\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-family: Helvetica;\n}\n\n.sidebar {\n  font-family: Helvetica;\n  font-size: large;\n  padding-left: 5%;\n  padding-top: 15%;\n  flex: 1;\n  line-height: 2;\n}\n\nimg{\n  /*display: block;*/\n  height:150px;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  opacity: 0.5;\n}\n\nimg:hover {\n  cursor: pointer;\n  opacity: 0.1;\n}\n\na {\n  margin-right: 1px;\n  padding-right: 1px;\n}\n\n\n"
 
 /***/ }),
 
@@ -145,7 +145,7 @@ var HobbiesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  left: 30%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: 15px;\n  font-family: Helvetica;\n}\n\n.body-class{\n  display: block;\n  width: 45%;\n  height: 50%;\n  padding: 45px 0;\n  border-radius: 5px;\n  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n\n.body-class:hover {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n\n.container {\n  position: relative;\n}\n\nmat-card {\n  width: 40%;\n  height: 100%;\n\n}\n\nmat-card:hover {\n  cursor: pointer;\n\n}\n\nimg {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n\n}\n"
+module.exports = ".center-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -webkit-transform: translate(-50%, -50%);\n          transform: translate(-50%, -50%);\n  font-size: x-large;\n  color: mediumblue;\n  font-family: Helvetica;\n\n}\n\n.body-class{\n  display: block;\n  /*width: fit-content;*/\n  /*height: fit-content;*/\n  /*padding: 45px 0;*/\n  border-radius: 5px;\n  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);\n  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  position: relative;\n  margin-top: 2%;\n  height: 50%;\n}\n\n.body-class:hover {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n\n.container {\n  position: relative;\n\n}\n\nimg {\n  height: 100%;\n  width: 100%;\n\n}\n"
 
 /***/ }),
 
@@ -156,7 +156,7 @@ module.exports = "\n\n\n.center-text {\n  position: absolute;\n  top: 50%;\n  le
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n\n      Link to my Github\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n  <a href=\"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n    <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n  </a>\n      Link to Resume\n\n  </div>\n\n</div>\n"
+module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n      <div class=\"center-text\">\n\n        Link to my Github\n      </div>\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n    <a href=\"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n      <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n\n      <div class=\"center-text\">\n        Link to Resume\n      </div>\n    </a>\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var SafePipe = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:300px;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: large;\n  padding: 20px;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  /*margin-top: 0px !important;*/\n}\n"
+module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:25%;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 35%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: large;\n  padding: 20px;\n  opacity: 1;\n\n}\n\n.image {\n  overflow:hidden;\n  background-image: url('https://i0.wp.com/vcvoices.org/wp-content/uploads/2017/05/sunflowers.jpg?zoom=2&fit=1024%2C640');\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  -o-object-fit: cover;\n     object-fit: cover;\n  /*margin-top: 0px !important;*/\n}\n"
 
 /***/ }),
 
