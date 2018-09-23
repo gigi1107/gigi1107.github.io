@@ -156,7 +156,7 @@ module.exports = ".center-text {\n  position: absolute;\n  top: 50%;\n  left: 50
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex; background-color: aliceblue\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n      <div class=\"center-text\">\n\n        Link to my Github\n      </div>\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n    <a href=\"https://www.dropbox.com/s/94chygr2ms875lr/GenevaDavidson_2018.pdf?dl=0\">\n      <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n\n      <div class=\"center-text\">\n        Link to Resume\n      </div>\n    </a>\n\n  </div>\n\n</div>\n"
+module.exports = "<!--link to resume-->\n<!--link to github-->\n\n\n<div style=\"display: flex; background-color: aliceblue\">\n  <div class=\"body-class\">\n    <a href=\"https://github.com/gigi1107\">\n      <img src=\"https://image.flaticon.com/icons/svg/25/25231.svg\">\n      <div class=\"center-text\">\n\n        Link to my Github\n      </div>\n\n    </a>\n  </div>\n\n\n  <div style=\"padding-right: 20px\"></div>\n\n\n  <div class=\"body-class\">\n    <a href=\"https://www.dropbox.com/s/yzh7e87ruheewii/GenevaDavidson_2018_Resume.pdf?dl=0\">\n      <img src=\"https://farm2.staticflickr.com/1884/30958033828_94a2f5c24e_z.jpg\" width=\"495\" height=\"640\">\n\n      <div class=\"center-text\">\n        Link to Resume\n      </div>\n    </a>\n\n  </div>\n\n</div>\n"
 
 /***/ }),
 
