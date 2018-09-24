@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".portrait {\n  margin-right: 2%;\n  background-repeat: no-repeat;\n  width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  flex:1;\n\n  /*height: 100%;*/\n}\n\n\n.text-font {\n  font-family: Helvetica;\n  opacity: 0.7;\n  flex:4;\n\n}\n\n"
+module.exports = "img {\n  margin-right: 2%;\n  background-repeat: no-repeat;\n  max-width: 100%;\n  -o-object-fit: contain;\n     object-fit: contain;\n  flex:1;\n  min-width:0;\n  margin-top: 0;\n  -o-object-position: 0 0;\n     object-position: 0 0;\n  /*height: 100%;*/\n}\n\n\n.text-font {\n  font-family: Helvetica;\n  opacity: 0.7;\n  flex:2;\n\n}\n\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = ".portrait {\n  margin-right: 2%;\n  background-repeat: no-repe
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"display: flex; align-items: stretch\">\n  <div class=\"portrait\">\n    <img src=\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\">\n  </div>\n\n  <div class=\"text-font\">\n    <p>\n      Hi, I'm Gigi. I live in Seattle, WA, and am currently pursuing a degree in Computer Science at Seattle\n      University (anticipated graduation December 2019). I obtained my first degree in Psychology from UCLA in 2015.\n      When\n      I decided to move to Seattle immediately after graduating, I became interested in studying Computer Science.\n    </p>\n    <br>\n    <p>\n      I enjoy learning about the mind, especially exploring questions of consciousness, intelligence,\n      and learning. I would like to incorporate my studies in Psychology with my studies in Computer Science, so\n      I am therefore interested in Artificial Intelligence. However, I am not limiting myself to this, as I also\n      recently\n      became\n      interested in front- end web development.\n    </p>\n    <br>\n    <p>\n      As you will see as you explore this site, I also have a wide variety of hobbies, not all of which are expressed\n      here!\n      In addition to the things you see on my \"hobbies\" page, I enjoy playing Breath of the Wild on my new Nintendo\n      Switch and playing D&D and board games.\n\n    </p>\n    <br>\n    <p>\n      NOTE: This site is a work in progress, and not in its final form. Stay tuned.\n    </p>\n\n  </div>\n\n</div>\n\n"
+module.exports = "<div style=\"display: flex\">\n\n  <img src=\"https://farm2.staticflickr.com/1861/29682791377_d0f7e5708f_z.jpg\">\n\n  <div class=\"text-font\">\n    <p>\n      Hi, I'm Gigi. I live in Seattle, WA, and am currently pursuing a degree in Computer Science at Seattle\n      University (anticipated graduation December 2019). I obtained my first degree in Psychology from UCLA in 2015.\n      When I decided to move to Seattle after graduating, I became interested in studying Computer Science.\n    </p>\n    <br>\n    <p>\n      I enjoy learning about the mind, especially exploring questions of consciousness, intelligence,\n      and learning. I would like to incorporate my studies in Psychology with my studies in Computer Science, so\n      I am therefore interested in Artificial Intelligence. However, I am not limiting myself to this, as I also\n      recently became interested in front- end web development.\n    </p>\n    <br>\n    <p>\n      As you will see as you explore this site, I also have a wide variety of hobbies, not all of which are expressed\n      here! In addition to the things you see on my \"hobbies\" page, I enjoy playing Breath of the Wild on my new Nintendo\n      Switch and playing D&D and board games.\n\n    </p>\n    <br>\n    <p>\n      NOTE: This site is a work in progress, and not in its final form. Stay tuned.\n    </p>\n\n  </div>\n\n</div>\n\n"
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var SafePipe = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opacity: 50%;*/\n  z-index: 1;\n  width:100%;\n  height: auto;\n  border-radius: 50px;\n  margin-left: 2%;\n  margin-right: 2%;\n\n  margin-top:15%;\n\n}\n\n.text {\n  font-family: Helvetica;\n  font-size: 100%;\n  padding: 5%;\n  opacity: 1;\n\n}\n\n.image {\n  /*overflow:hidden;*/\n  background-color: aliceblue;\n  height: 800px;\n  width: 100%;\n  background-repeat: no-repeat;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: relative;\n  /*margin-top: 0px !important;*/\n}\n\nimg {\n  position: absolute;\n  width: 50%;\n  /*height: 50%;*/\n  margin-top: 5%;\n  margin-left: 20%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  background-color: aliceblue;\n  border-radius: 50%;\n\n\n  /*margin-left: 50%;*/\n\n}\n"
+module.exports = "\nimg {\n  position: absolute;\n  width: 50%;\n  /*height: 50%;*/\n  margin-top: 5%;\n  margin-left: 20%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  border-radius: 50%;\n\n}\n\n.background {\n  background-color: aliceblue;\n  height: 2000px;\n}\n"
 
 /***/ }),
 
@@ -234,7 +234,7 @@ module.exports = ".textbox {\n  background-color:rgba(255,255,255,0.5);\n  /*opa
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"image\">\n  <img src=\"https://images.all-free-download.com/images/graphiclarge/white_rose_monochrome_516089.jpg\">\n</div>\n"
+module.exports = "\n<div class=\"background\">\n    <img src=\"https://images.all-free-download.com/images/graphiclarge/white_rose_monochrome_516089.jpg\">\n\n</div>\n"
 
 /***/ }),
 
@@ -331,7 +331,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  font-family: 'Poiret One', cursive;\n\n  font-size: xx-large;\n  /*padding-left: 30%;*/\n}\n\n.button-font {\n font-family: 'Poiret One', cursive;\n  font-size: medium;\n  background-color: rgba(255,255,255,0.1);\n}\n\n.button-margin {\n  padding-left: 45%;\n}\n\n.background-image {\n  background-color: aliceblue;\n  width:100% ;\n  height:100%;\n\n\n}\n\n\n"
+module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  font-family: 'Poiret One', cursive;\n\n  font-size: xx-large;\n  /*padding-left: 30%;*/\n}\n\n.button-font {\n font-family: 'Poiret One', cursive;\n  font-size: medium;\n  background-color: rgba(255,255,255,0.1);\n}\n\n.button-margin {\n  padding-left: 45%;\n}\n\n.background-image {\n  background-color: aliceblue;\n  width:100% ;\n  height:100%;\n  overflow-x: hidden;\n\n\n}\n\n\n"
 
 /***/ }),
 
@@ -342,7 +342,7 @@ module.exports = ".spacer {\n  /*padding-bottom: 20px;*/\n}\n\n.title-font {\n  
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card>\n  <div class=\"background-image\">\n    <div style=\"padding: 2%; display: flex\">\n      <div class=\"title-font\">\n        <link href=\"https://fonts.googleapis.com/css?family=Permanent+Marker|Poiret+One\" rel=\"stylesheet\">\n        Geneva Rose Davidson\n      </div>\n\n\n      <div class=\"button-margin\">\n        <button mat-button class=\"button-font\" routerLink=\"/home\">Home</button>\n        <button mat-button class=\"button-font\" routerLink=\"/about-me\">About Me</button>\n        <button mat-button class=\"button-font\" routerLink=\"/hobbies\">Hobbies</button>\n        <button mat-button class=\"button-font\" routerLink=\"/portfolio\">Portfolio</button>\n      </div>\n    </div>\n  </div>\n  <div class=\"spacer\"></div>\n  <router-outlet></router-outlet>\n</mat-card>\n"
+module.exports = "\n  <div class=\"background-image\">\n    <div style=\"padding: 2%; display: flex\">\n      <div class=\"title-font\">\n        <link href=\"https://fonts.googleapis.com/css?family=Permanent+Marker|Poiret+One\" rel=\"stylesheet\">\n        Geneva Rose Davidson\n      </div>\n\n\n      <div class=\"button-margin\">\n        <button mat-button class=\"button-font\" routerLink=\"/home\">Home</button>\n        <button mat-button class=\"button-font\" routerLink=\"/about-me\">About Me</button>\n        <button mat-button class=\"button-font\" routerLink=\"/hobbies\">Hobbies</button>\n        <button mat-button class=\"button-font\" routerLink=\"/portfolio\">Portfolio</button>\n      </div>\n    </div>\n  </div>\n  <div class=\"spacer\"></div>\n  <router-outlet></router-outlet>\n"
 
 /***/ }),
 
